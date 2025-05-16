@@ -18,13 +18,13 @@ public class Server {
 		
 		ServerSocket serversocket = new ServerSocket();
 		
-		//ip:192.168.0.90,port:10001
+		//ip:192.168.123.2,port:10001
 		/*
 		InetSocketAddress ipport =new InetSocketAddress("192.168.0.90",10001);
 		serversocket.bind(ipport);
 		*/
 		
-		serversocket.bind (new InetSocketAddress("192.168.0.90",10001));
+		serversocket.bind (new InetSocketAddress("192.168.123.2",10001));
 		
 		//서버시작
 		System.out.println("<서버시작>");
